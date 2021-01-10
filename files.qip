@@ -1,0 +1,13 @@
+set_global_assignment -name SDC_FILE mo.sdc
+set_global_assignment -name SYSTEMVERILOG_FILE mo.sv
+set_global_assignment -name VHDL_FILE rtl/base/base_pack.vhd
+set_global_assignment -name VHDL_FILE rtl/base/ovo.vhd
+set_global_assignment -name VHDL_FILE rtl/mo/rom_pack.vhd
+set_global_assignment -name VHDL_FILE rtl/mo/movideo.vhd
+set_global_assignment -name VHDL_FILE rtl/mo/motape.vhd
+set_global_assignment -name VHDL_FILE rtl/mo/mc6809.vhd
+set_global_assignment -name VHDL_FILE rtl/mo/mc6809_pack.vhd
+set_global_assignment -name VHDL_FILE rtl/mo/mc6821.vhd
+set_global_assignment -name VHDL_FILE rtl/mo/mo_core.vhd
+set_global_assignment -name VERILOG_FILE rtl/mo/mc6809i.v
+
